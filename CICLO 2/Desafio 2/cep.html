@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="CEP.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Desafio 2</title>
+</head>
+<body>
+    <header class="flex center fonte">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div class=" flex center">
+            <div id="icondown" class="center flex"><span class="material-icons icon">
+            travel_explore
+            </span></div>
+        </div>
+    </header>
+    <main class="flex center">
+        <section>
+            <form method="post" name="Login">
+                <fieldset class="flex" id="column">
+                    <label for="CEP">CEP</label>
+                    <input class="cep" type="text" name="CEP" value="">
+                    <input type="text" class="txt">
+                    <label for="logradouro">Rua</label>
+                    <input class="logradouro" type="text" name="Rua" id="logradouro" value=""disabled>
+                    <input type="text" class="txt">
+                    <label for="Bairro">Bairro</label>
+                    <input class="Bairro" type="text" name="Bairro" id="bairro" value=""disabled>
+                    <input type="text" class="txt">
+                    <label for="Localidade">Cidade</label>
+                    <input class="Localidade" type="text" name="Cidade" id="cidade" value=""disabled>
+                    <input type="text" class="txt">
+                    <label for="UF">Estado</label>
+                    <input class="UF" type="text" name="Estado" id="uf" value=""disabled>
+                    <input type="text" class="txt">
+                    <input class="Buscar" type="submit" name="Buscar" id="buscar" value=""disabled>
+                    <input type="submit" class="fonte" id="botao" name="enviarDados" value="ENVIAR"> 
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ main, header, footer {
+     width: 80%;
+     background-color: darkgoldenrod;
+     margin:10px auto 10px auto;
+ }
+ 
+ main {
+     height: auto;
+     
+ }
+ 
+ header {
+     height: 60px;
+ }
+ 
+ footer {
+     height: auto;
+ }
+ 
+ .ajusteTamanho {
+     height: 30vh;
+     background-color: darkolivegreen;
+ }
+ 
+ .content-card > div, footer > div {
+     width: 48%;
+     height: 200px;
+     background-color: darkred;
+    
+ }
